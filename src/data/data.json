@@ -1,0 +1,45 @@
+{
+  "header": {
+    "org_name": "Little buggs",
+    "heading": "Have questions or concerns? Reach out to us!",
+    "sub_heading": "mosesarulvin@gmail.com"
+  },
+    "products": [
+      {
+        "id": 1,
+        "name": "Lively Lime Shield Case",
+        "description": "Protect your iPhone from drops and impacts with this rugged case.",
+        "image": "images/i1.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Pink Bliss Silicone Case",
+        "description": "Protect your iPhone from drops and impacts with this rugged case.",
+        "image": "images/i2.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Sky Serenity Silicone Case",
+        "description": "Protect your iPhone from drops and impacts with this rugged case.",
+        "image": "images/i3.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Pure Elegance Guard Case",
+        "description": "Protect your iPhone from drops and impacts with this rugged case.",
+        "image": "images/i4.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Stylish Slate Shield Case",
+        "description": "Protect your iPhone from drops and impacts with this rugged case.",
+        "image": "images/i5.jpg"
+      }
+    ],
+    "contact": {
+      "heading": "Contact Us",
+      "text": "Have questions or concerns? Reach out to us!",
+      "email": "mosesarulvin@gmail.com"
+    }
+  }
+  
