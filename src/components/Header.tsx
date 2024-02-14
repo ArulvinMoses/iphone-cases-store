@@ -1,13 +1,44 @@
-import { Typography } from "@mui/material"
+import React from 'react';
+import { AppBar, Toolbar, Button, Container } from '@mui/material';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-const Header = () => {
-    return (
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
-        <Typography variant="h3" color="primary" fontWeight="bold">Little buggs</Typography>
-        <Typography variant="h4" color="secondary">Stylish iPhone Cases</Typography>
-        <Typography variant="body1" color="secondary">Protect your iPhone with our premium quality cases</Typography>
-      </div>
-    )
+function Header() {
+  return (
+    <AppBar 
+        position="static" 
+        style={{
+            color:"#ffffff", 
+            background: '#ffffff', 
+            boxShadow: '0px 2px 4px -1px #efe9e9'
+        }}>
+        <Container>
+            <Toolbar>
+                <div style={{ flexGrow: 1 }}>
+                <img 
+                    alt="Logo" 
+                    src={'images/1.png'} 
+                    style={{ 
+                        height: 40, 
+                        marginRight: 10 
+                    }} />
+                </div>
+                <Button 
+                    variant="contained" 
+                    style={{background: '#262626', borderRadius: '20px', boxShadow: 'none'}}
+                    startIcon={
+                        <WhatsAppIcon 
+                        style={{
+                            color: 'rgb(255 255 255)', 
+                            background: "#1de11d",
+                            borderRadius: '50%'
+                        }}/>
+                    }>
+                        Enquire    
+                </Button>
+            </Toolbar>
+        </Container>
+    </AppBar>
+  );
 }
 
-export default Header
+export default Header;

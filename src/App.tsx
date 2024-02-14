@@ -1,29 +1,25 @@
 import React from 'react';
-import { Container, Typography, Card, CardContent, Grid, CardMedia } from '@mui/material';
+import { Container } from '@mui/material';
 import Products from 'components/Products';
 import Header from 'components/Header';
 import Contact from 'components/Contact';
+import Footer from 'components/Footer';
+import Banners from 'components/Banners';
+import Filters from 'components/Filters';
 
 
 function App() {
   
   return (
-    <Container>
-
-      {/* Header  */}
-    
+    <>
       <Header />
-
-      {/* Products */}
-    
+      <Banners />
+      <Filters />
       <Products />      
-
-      {/* Contact */}
-
-      <Contact />
-    
-    </Container>
-
+      {/* <Contact /> */}
+      
+      <Footer/>
+    </>
   );
 }
 

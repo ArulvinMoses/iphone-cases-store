@@ -4,42 +4,136 @@
     "heading": "Have questions or concerns? Reach out to us!",
     "sub_heading": "mosesarulvin@gmail.com"
   },
-    "products": [
-      {
-        "id": 1,
-        "name": "Lively Lime Shield Case",
-        "description": "Protect your iPhone from drops and impacts with this rugged case.",
-        "image": "images/i1.jpg"
-      },
-      {
-        "id": 2,
-        "name": "Pink Bliss Silicone Case",
-        "description": "Protect your iPhone from drops and impacts with this rugged case.",
-        "image": "images/i2.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Sky Serenity Silicone Case",
-        "description": "Protect your iPhone from drops and impacts with this rugged case.",
-        "image": "images/i3.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Pure Elegance Guard Case",
-        "description": "Protect your iPhone from drops and impacts with this rugged case.",
-        "image": "images/i4.jpg"
-      },
-      {
-        "id": 5,
-        "name": "Stylish Slate Shield Case",
-        "description": "Protect your iPhone from drops and impacts with this rugged case.",
-        "image": "images/i5.jpg"
-      }
-    ],
-    "contact": {
-      "heading": "Contact Us",
-      "text": "Have questions or concerns? Reach out to us!",
-      "email": "mosesarulvin@gmail.com"
+  "products": [
+    {
+      "id": 1,
+      "name": "Lively Lime Shield Case",
+      "description": "Protect your iPhone from drops and impacts with this rugged case.",
+      "image": "images/productImage.png",
+      "discountPrice": 200.00,
+      "actualPrice" : 250.00
+    },
+    {
+      "id": 2,
+      "name": "Pink Bliss Silicone Case",
+      "description": "Protect your iPhone from drops and impacts with this rugged case.",
+      "image": "images/productImage.png",
+      "discountPrice": 200.00,
+      "actualPrice" : 250.00
+    },
+    {
+      "id": 3,
+      "name": "Sky Serenity Silicone Case",
+      "description": "Protect your iPhone from drops and impacts with this rugged case.",
+      "image": "images/productImage.png",
+      "discountPrice": 200.00,
+      "actualPrice" : 250.00
+    },
+    {
+      "id": 4,
+      "name": "Pure Elegance Guard Case",
+      "description": "Protect your iPhone from drops and impacts with this rugged case.",
+      "image": "images/productImage.png",
+      "discountPrice": 200.00,
+      "actualPrice" : 250.00
+    },
+    {
+      "id": 5,
+      "name": "Stylish Slate Shield Case",
+      "description": "Protect your iPhone from drops and impacts with this rugged case.",
+      "image": "images/productImage.png",
+      "discountPrice": 200.00,
+      "actualPrice" : 250.00
     }
-  }
+  ],
+  "contact": {
+    "heading": "Contact Us",
+    "text": "Have questions or concerns? Reach out to us!",
+    "email": "mosesarulvin@gmail.com"
+  },
+  "footer": {
+    "whatsapp": 8489844082,
+    "mail": "mosesarulvin@gmail.com",
+    "instagram": "mosesarulvin",
+    "facebook": "mosesarulvin",
+    "copyright": " Copyright ",
+    "year": 2024,
+    "name": " mosesarulvin"
+  },
+  "banners" : [
+    {
+    "title" : "IPhone Cases",
+    "color": "#FEAFD8"
+    },
+    {
+      "title" : "IPhone Cases",
+      "color": "#40EAF4"
+    },
+    {
+      "title" : "IPhone Cases",
+      "color": "#CF56F9"
+    },
+    {
+      "title" : "IPhone Cases",
+      "color": "#EDE749"
+    },
+    {
+      "title" : "IPhone Cases",
+      "color": "#3B3B3B"
+    }
+  ],
+  "iphones": [
+    {
+      "series": 15,
+      "model": [
+        "15",
+        "15 Plus",
+        "15 Pro",
+        "15 Pro Max"
+      ]
+    },
+    {
+      "series": 14,
+      "model": [
+        "14",
+        "14 Plus",
+        "14 Pro",
+        "14 Pro Max"
+      ]
+    },
+    {
+      "series": 13,
+      "model": [
+        "13 Mini",
+        "13",
+        "13 Pro",
+        "13 Pro Max"
+      ]
+    },
+    {
+      "series": 12,
+      "model": [
+        "12 Mini",
+        "12",
+        "12 Pro",
+        "12 Pro Max"
+      ]
+    },
+    {
+      "series": 11,
+      "model": [
+        "11",
+        "11 Pro",
+        "11 Pro Max"
+      ]
+    }
+  ],
+  "colors": [
+    {"color": "#3B3B3B"},
+    {"color": "#EDE749"},
+    {"color": "#CF56F9"},
+    {"color": "#40EAF4"},
+    {"color": "#FEAFD8"}
+  ]
+}
   
